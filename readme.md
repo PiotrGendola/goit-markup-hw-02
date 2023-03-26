@@ -1,1 +1,1 @@
-https://piotrgendola.github.io/goit-markup-hw-01/
+https://piotrgendola.github.io/goit-markup-hw-02/
