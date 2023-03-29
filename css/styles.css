@@ -1,0 +1,123 @@
+:root {
+    --global-font-color: #212121;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--global-font-color);
+}
+
+.logo-style-top {
+    font-family: 'raleway', sans-serif;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-style-bottom {
+    font-family: 'raleway', sans-serif;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.web-style {
+    color: #2196f3;
+}
+
+.button-style {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.h1-section {
+    background-color: #2f303a;
+}
+
+.h1-style {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.h5-style {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.p-style {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.h2-style {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: var(--global-font-color);
+}
+
+.team-names-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.button-style:hover,
+.button-style:focus,
+.button-style:active {
+    background-color: #2196f3;
+}
+
+.studio-button-style {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #2196f3;
+}
+
+.caption-font-style {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.contact-link-top {
+    font-size: 14px;
+    line-height: 1.46;
+    color: #757575;
+    text-decoration: none;
+}
+
+.contact-link-top:hover {
+    color: #2196f3;
+}
+
+.contact-link-bottom {
+    font-size: 14px;
+    line-height: 1.46;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #2f303a;
+}
+
+.nav-font {
+    text-decoration: none;
+}
+
+.nav-font:hover {
+    color: #2196f3;
+}
