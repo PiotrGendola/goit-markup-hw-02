@@ -167,7 +167,7 @@ body {
 }
 
 .nav-font {
-    /* color: var(--global-font-color); */
+    color: var(--global-font-color);
     text-decoration: none;
     line-height: 0.875;
 }
