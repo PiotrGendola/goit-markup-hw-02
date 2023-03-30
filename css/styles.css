@@ -1,5 +1,12 @@
 :root {
     --global-font-color: #212121;
+    --dark-font-color: #000000;
+    --bright-font-color: #ffffff;
+    --web-style-color: #2196f3;
+    --h1-background-color: #2f303a;
+    --p-caption-link-font-color: #757575;
+    --bottom-link-color: rgba(255, 255, 255, 0.6);
+    --footer-background-color: #2f303a;
 }
 
 body {
@@ -9,44 +16,62 @@ body {
 
 .logo-style-top {
     font-family: 'raleway', sans-serif;
-    font-style: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1;
-    color: #000000;
+    line-height: 0.84;
+    color: var(--dark-font-color);
     text-decoration: none;
 }
 
 .logo-style-bottom {
     font-family: 'raleway', sans-serif;
-    font-style: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    color: #ffffff;
+    line-height: 0.84;
+    color: var(--bright-font-color);
     text-decoration: none;
 }
 
 .web-style {
-    color: #2196f3;
+    color: var(--web-style-color);
+    line-height: 0.85;
 }
 
 .button-style {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
+    line-height: 0.53;
+}
+
+.portfolio-button-style {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.61;
 }
 
 .h1-section {
-    background-color: #2f303a;
+    background-color: var(--h1-background-color);
+    line-height: 0.73;
 }
 
 .h1-style {
-    color: #ffffff;
+    color: var(--bright-font-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
 }
 
+.h2-style {
+    /* color: var(--global-font-color); */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.86;
+}
+
 .h5-style {
+    /* color: var(--global-font-color); */
     font-weight: 700;
     font-size: 14px;
     line-height: 16.41px;
@@ -55,69 +80,99 @@ body {
 .p-style {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    color: #757575;
-}
-
-.h2-style {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42.19px;
-    color: var(--global-font-color);
+    line-height: 0.58;
+    color: var(--p-caption-link-font-color);
 }
 
 .team-names-style {
     font-weight: 500;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 0.84;
+}
+
+.portfolio-team-names-style {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
 }
 
 .button-style:hover,
-.button-style:focus,
-.button-style:active {
-    background-color: #2196f3;
+.button-style:focus {
+    background-color: var(--web-style-color);
 }
 
 .studio-button-style {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    background-color: #2196f3;
+    line-height: 0.53;
+    color: var(--bright-font-color);
+    background-color: var(--web-style-color);
 }
 
 .caption-font-style {
-    color: #757575;
+    color: var(--p-caption-link-font-color);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 0.84;
+}
+
+.portfolio-caption-font-style {
+    color: var(--p-caption-link-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.53;
 }
 
 .contact-link-top {
     font-size: 14px;
-    line-height: 1.46;
-    color: #757575;
+    line-height: 0.875;
+    color: var(--p-caption-link-font-color);
     text-decoration: none;
+    font-style: normal;
 }
 
+.contact-link-top:focus,
 .contact-link-top:hover {
+    color: var(--web-style-color);
+}
+
+.street-contact-link-bottom {
+    font-size: 14px;
+    line-height: 0.58;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+}
+.street-contact-link-bottom:focus,
+.street-contact-link-bottom:hover {
     color: #2196f3;
 }
 
 .contact-link-bottom {
     font-size: 14px;
-    line-height: 1.46;
-    color: #ffffff;
+    line-height: 0.58;
+    color: var(--bottom-link-color);
     text-decoration: none;
+    font-style: normal;
+}
+
+.contact-link-bottom:focus,
+.contact-link-bottom:hover {
+    color: var(--web-style-color);
 }
 
 .footer {
-    background-color: #2f303a;
+    background-color: var(--footer-background-color);
 }
 
 .nav-font {
+    /* color: var(--global-font-color); */
     text-decoration: none;
+    line-height: 0.875;
 }
 
+.nav-font:focus,
 .nav-font:hover {
-    color: #2196f3;
+    color: var(--web-style-color);
 }
