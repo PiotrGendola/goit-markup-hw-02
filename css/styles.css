@@ -96,8 +96,8 @@ body {
     line-height: 0.5;
 }
 
-.button-style:hover,
-.button-style:focus {
+.portfolio-button-style:hover,
+.portfolio-button-style:focus {
     background-color: var(--web-style-color);
 }
 
