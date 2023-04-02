@@ -14,22 +14,21 @@ body {
     color: var(--global-font-color);
 }
 
-.logo-style-top {
+.logo {
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: var(--dark-font-color);
+
     text-decoration: none;
 }
 
-.logo-style-bottom {
-    font-family: 'raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+.studio-black {
+    color: var(--dark-font-color);
+}
+
+.studio-white {
     color: var(--bright-font-color);
-    text-decoration: none;
 }
 
 .web-style {
@@ -42,6 +41,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--web-style-color);
+    color: var(--bright-font-color);
 }
 
 .h1-section {
@@ -88,11 +93,6 @@ body {
     line-height: 2;
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
-    background-color: var(--web-style-color);
-}
-
 .studio-button {
     font-family: 'roboto', sans-serif;
     cursor: pointer;
@@ -134,14 +134,14 @@ body {
 .street-contact-link-bottom {
     font-size: 14px;
     line-height: 1.7;
-    color: #ffffff;
+    color: var(--bright-font-color);
     text-decoration: none;
     font-style: normal;
 }
-.street-contact-link-bottom:focus,
+/* .street-contact-link-bottom:focus,
 .street-contact-link-bottom:hover {
-    color: #2196f3;
-}
+    color: var(--web-style-color);
+} */
 
 .contact-link-bottom {
     font-size: 14px;
